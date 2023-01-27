@@ -31,4 +31,10 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'trakt' => [
+        'client_id' => env('TRAKT_CLIENT_ID'),
+        'client_secret' => env('TRAKT_CLIENT_SECRET'),
+        'redirect' => env('TRAKT_REDIRECT_URI')
+    ],
+
 ];
